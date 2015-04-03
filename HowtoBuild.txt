@@ -1,0 +1,56 @@
+How to build :
+	• download the project from git directory 
+	
+	• MAMP (OSX)  or WAMP (WINDOWS) can be used for local sql servers 
+	http://www.mamp.info/en/
+	http://www.wampserver.com/en/
+
+	• Netbeans/PhpStorm/Eclispe  can be used for creating the project 
+	
+	• import the sql file to the server ( sql file is included in directory )  
+	• in connect.php make edit such that ( hostname , username , password , SENG301DB) according to your server replace hostname , username and password.  If MAMP is downloaded this wont required to be edited.
+	• Make the project using the files   
+	• run the main.php file on a browser ( google chrome , safari )
+
+
+
+Installing Netbeans:
+
+1. Make sure you have installed Java Development Kit JDK on your system. You can obtain it from the following link: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+2. Obtain the NetBeans installation files from
+https://netbeans.org/downloads/
+3. Click download, your download will start shortly.
+4. After the download finishes, click on the downloaded file to run the installation
+5. The installation window looks as follows
+6. Click Next
+7. Accept License Agreement
+8. Choose your NetBeans installation folder and Java environment (JDK) folder and click Next
+9. Make sure the option “Check for updates” is selected and Click Install.
+10. The installation procedure will start. Click Finish button.
+
+Netbeans configurations : 
+
+1. Start NetBeans, click on File-> New Project, a new window will popup
+3. Choose PHP and PHP Application then click Next
+4. Choose you Project name, Sources Folder and leave everything else for defaults
+5. Click Next.
+6. Click Finish.
+
+Importing Sql to set up Databae (if using MAMP):
+Apache port: 8888
+MySql port:  3306
+
+1. Open MAMP
+2. go to Webpagestart
+3. click on phpMyAdmin
+4. click on import
+5. Choose file > select the sql file in the directory
+6. click go it should set up the database
+
+
+** if importing sql file gives error. Click on databases > create databases 
+Name = SENG301DB click on create. and do 4-6 above. **
+
+
+
+
